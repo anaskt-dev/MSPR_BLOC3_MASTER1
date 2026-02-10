@@ -1,0 +1,76 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter / Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===============================
+# Models / Outputs
+# ===============================
+models/
+checkpoints/
+outputs/
+logs/
+runs/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Power BI / Office (si présent)
+# ===============================
+*.pbix
+*.tmp
+*.bak
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Tests / Coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
