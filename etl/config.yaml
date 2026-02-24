@@ -1,0 +1,10 @@
+data_path: "D:/MSPR_CODE/MSPR_BLOC3_MASTER1/DATA"
+output_path: "D:/MSPR_CODE/MSPR_BLOC3_MASTER1/data_clean"
+
+files:
+  t1: "Premier_tour_rhone_sep.csv"
+  t2: "Second_tour_rhone_sep.csv"
+  chomage: "50_MTS-52_CHO_sheet1.csv"
+  securite: "donnee-dep-data.gouv-2025-geographie2025-produit-le2026-01-22.csv"
+
+# db_url: "postgresql+psycopg2://postgres:admin@localhost:5432/mspr_dw"
