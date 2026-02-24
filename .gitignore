@@ -74,3 +74,8 @@ htmlcov/
 # ===============================
 build/
 dist/
+
+
+
+git rm --cached etl/warehouse.duckdb
+git add .
