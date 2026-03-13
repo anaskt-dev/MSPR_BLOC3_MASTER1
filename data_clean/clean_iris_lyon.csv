@@ -1,0 +1,513 @@
+﻿codeiris;libelle;type;typelibelle;commune;insee;gid
+690290104;Ferdinand Buisson Église;H;Habitat;Bron;69029;1029
+690290201;Gérard Philipe-Ferdinand Buisson;H;Habitat;Bron;69029;1030
+690290202;Les Sapins-Pessivas;H;Habitat;Bron;69029;1031
+690290203;Caravelle;H;Habitat;Bron;69029;1032
+690290204;Terraillon-Plein Sud;H;Habitat;Bron;69029;1033
+690290205;Route De Genas-Aliende;H;Habitat;Bron;69029;1034
+690290301;Bron Sud;H;Habitat;Bron;69029;1035
+690290401;Hôtel De Ville Alsace-Lorraine;H;Habitat;Bron;69029;1036
+690290402;Centre;H;Habitat;Bron;69029;1037
+690290501;Parilly Nord;H;Habitat;Bron;69029;1038
+690290502;Parilly Sud;H;Habitat;Bron;69029;1039
+690290601;Essarts Nord;H;Habitat;Bron;69029;1040
+690290602;Essarts Sud;H;Habitat;Bron;69029;1041
+690330000;Cailloux-Sur-Fontaines;Z;Commune Non Irisée;Cailloux-Sur-Fontaines;69033;1042
+690340101;Cuire-Le Haut;H;Habitat;Caluire-Et-Cuire;69034;1043
+690340102;Cuire-Le Bas;H;Habitat;Caluire-Et-Cuire;69034;1044
+690340103;Pierre Brunier;H;Habitat;Caluire-Et-Cuire;69034;1045
+690340104;Coste-Croix-Rousse;H;Habitat;Caluire-Et-Cuire;69034;1046
+690340105;Coste Nord;H;Habitat;Caluire-Et-Cuire;69034;1047
+690340201;Centre-Bourg;H;Habitat;Caluire-Et-Cuire;69034;1048
+690340301;Vernay;H;Habitat;Caluire-Et-Cuire;69034;1049
+690340302;Jean Moulin-De Gaulle;H;Habitat;Caluire-Et-Cuire;69034;1050
+690340303;Montchoisi;H;Habitat;Caluire-Et-Cuire;69034;1051
+690340401;Magnolles-Pasteur;H;Habitat;Caluire-Et-Cuire;69034;1052
+690340402;Magnolles-Aristide Briand;H;Habitat;Caluire-Et-Cuire;69034;1053
+690340403;Bissardon;H;Habitat;Caluire-Et-Cuire;69034;1054
+690340501;Pasteur;H;Habitat;Caluire-Et-Cuire;69034;1055
+690340502;Montessuy Ouest;H;Habitat;Caluire-Et-Cuire;69034;1056
+690340503;Montessuy Est;H;Habitat;Caluire-Et-Cuire;69034;1057
+690340601;Maréchal Foch;H;Habitat;Caluire-Et-Cuire;69034;1058
+690340602;Vassieux;H;Habitat;Caluire-Et-Cuire;69034;1059
+690340701;Perica-Caluire;A;Activité;Caluire-Et-Cuire;69034;1060
+690340801;Saint-Clair;H;Habitat;Caluire-Et-Cuire;69034;1061
+690400101;Centre;H;Habitat;Champagne-Au-Mont-D'Or;69040;1062
+690400102;Contour;H;Habitat;Champagne-Au-Mont-D'Or;69040;1063
+690440000;Charbonnières-Les-Bains;Z;Commune Non Irisée;Charbonnières-Les-Bains;69044;1064
+690460000;Charly;Z;Commune Non Irisée;Charly;69046;1065
+690630000;Collonges-Au-Mont-D'Or;Z;Commune Non Irisée;Collonges-Au-Mont-D'Or;69063;1066
+690680000;Couzon-Au-Mont-D'Or;Z;Commune Non Irisée;Couzon-Au-Mont-D'Or;69068;1067
+690690101;Ouest;H;Habitat;Craponne;69069;1068
+690690102;Centre;H;Habitat;Craponne;69069;1069
+690690103;Est;H;Habitat;Craponne;69069;1070
+690710000;Curis-Au-Mont-D'Or;Z;Commune Non Irisée;Curis-Au-Mont-D'Or;69071;1071
+690720104;Centre;H;Habitat;Dardilly;69072;1072
+690720105;Est;H;Habitat;Dardilly;69072;1073
+690720106;Ouest;H;Habitat;Dardilly;69072;1074
+690810101;Les Sources;H;Habitat;Écully;69081;1075
+690810102;Vianney;H;Habitat;Écully;69081;1076
+690810103;Le Pérollier;A;Activité;Écully;69081;1077
+690810104;Les Serres-Tronchon;H;Habitat;Écully;69081;1078
+690810105;Vivier;H;Habitat;Écully;69081;1079
+690810201;Pole Enseignement-Recherche;H;Habitat;Écully;69081;1080
+690810202;Centre;H;Habitat;Écully;69081;1081
+690810301;Charlier;H;Habitat;Écully;69081;1082
+690810302;Valvert;H;Habitat;Écully;69081;1083
+690850000;Fleurieu-Sur-Saône;Z;Commune Non Irisée;Fleurieu-Sur-Saône;69085;1084
+690870000;Fontaines-Saint-Martin;Z;Commune Non Irisée;Fontaines-Saint-Martin;69087;1085
+690880101;Le Bourg;H;Habitat;Fontaines-Sur-Saône;69088;1086
+690880102;Bord De Saône;H;Habitat;Fontaines-Sur-Saône;69088;1087
+690880103;Les Marronniers;H;Habitat;Fontaines-Sur-Saône;69088;1088
+690890101;Francheville-Le Haut-Bruissin;H;Habitat;Francheville;69089;1089
+690890102;Francheville-Le Haut Centre;H;Habitat;Francheville;69089;1090
+690890201;Francheville-Le Bas Sud;H;Habitat;Francheville;69089;1091
+690890202;Francheville-Le Bas Nord;H;Habitat;Francheville;69089;1092
+690890301;Bel-Air Alai;H;Habitat;Francheville;69089;1093
+690910102;Bas Vernes;H;Habitat;Givors;69091;1095
+690910103;Les Coteaux;H;Habitat;Givors;69091;1096
+690910201;Les Plaines;H;Habitat;Givors;69091;1097
+690910202;Canal;H;Habitat;Givors;69091;1098
+690910203;Centre Ville;H;Habitat;Givors;69091;1099
+690910301;Freydière-Bans;H;Habitat;Givors;69091;1100
+690910302;Zone Du Gier;A;Activité;Givors;69091;1101
+690960101;Centre Ville;H;Habitat;Grigny;69096;1102
+690960102;Les Arboras;H;Habitat;Grigny;69096;1103
+690960103;Nouveau Grigny-Sur-Rhône;H;Habitat;Grigny;69096;1104
+691000101;Centre;H;Habitat;Irigny;69100;1105
+691000102;Yvours;H;Habitat;Irigny;69100;1106
+691000103;Venières;H;Habitat;Irigny;69100;1107
+691160000;Limonest;Z;Commune Non Irisée;Limonest;69116;1108
+691170000;Lissieu;Z;Commune Non Irisée;Lissieu;69117;1109
+693830604;Montbrilland-Guilloud;H;Habitat;Lyon 3E Arrondissement;69383;1400
+691270000;Marcy-L'Étoile;Z;Commune Non Irisée;Marcy-L'Étoile;69127;1110
+691420101;Le Roule;H;Habitat;La Mulatière;69142;1111
+691420102;Le Confluent;H;Habitat;La Mulatière;69142;1112
+691420103;Les Chassagnes;H;Habitat;La Mulatière;69142;1113
+691430101;Centre Bourg;H;Habitat;Neuville-Sur-Saône;69143;1114
+691430102;Zone Industrielle;A;Activité;Neuville-Sur-Saône;69143;1115
+691430103;Aventurière-Simandre;H;Habitat;Neuville-Sur-Saône;69143;1116
+691430104;Vosne-Tête Noire;H;Habitat;Neuville-Sur-Saône;69143;1117
+691490101;Golf-Montlouis;H;Habitat;Oullins;69149;1118
+691490102;Célestins Merlo;H;Habitat;Oullins;69149;1119
+691490201;Cadière;H;Habitat;Oullins;69149;1120
+691490202;Bussière;H;Habitat;Oullins;69149;1121
+691490301;Glacière-Jomard;H;Habitat;Oullins;69149;1122
+691490302;Glacière-Revoyet;H;Habitat;Oullins;69149;1123
+691490303;Montmein;H;Habitat;Oullins;69149;1124
+691490401;Clavelière-Malletière;H;Habitat;Oullins;69149;1125
+691490402;Saulaie;H;Habitat;Oullins;69149;1126
+691490501;Centre-Nord Oullins;H;Habitat;Oullins;69149;1127
+691490502;Centre-Sud Oullins;H;Habitat;Oullins;69149;1128
+691490601;Zone D'Activités;A;Activité;Oullins;69149;1537
+691490602;Haute Roche Est;H;Habitat;Oullins;69149;1538
+691490603;Haute Roche Ouest;H;Habitat;Oullins;69149;1539
+691490604;Centre Pierre-Bénite;H;Habitat;Oullins;69149;1540
+691490605;Le Perron-Garanjou;H;Habitat;Oullins;69149;1541
+691490606;Hôpital;A;Activité;Oullins;69149;1542
+691530000;Poleymieux-Au-Mont-D'Or;Z;Commune Non Irisée;Poleymieux-Au-Mont-D'Or;69153;1135
+691630000;Quincieux;Z;Commune Non Irisée;Quincieux;69163;1136
+691680000;Rochetaillée-Sur-Saône;Z;Commune Non Irisée;Rochetaillée-Sur-Saône;69168;1137
+691910101;Est;H;Habitat;Saint-Cyr-Au-Mont-D'Or;69191;1138
+691910102;Ouest;H;Habitat;Saint-Cyr-Au-Mont-D'Or;69191;1139
+691940101;Centre Et Nord-Ouest;H;Habitat;Saint-Didier-Au-Mont-D'Or;69194;1140
+691940102;Centre Et Sud-Est;H;Habitat;Saint-Didier-Au-Mont-D'Or;69194;1141
+691990101;Zone Industrielle;A;Activité;Saint-Fons;69199;1142
+691990201;Centre Ville;H;Habitat;Saint-Fons;69199;1143
+691990202;Chassagnon;H;Habitat;Saint-Fons;69199;1144
+691990301;L'Arsenal Nord;H;Habitat;Saint-Fons;69199;1145
+691990302;L'Arsenal Sud;H;Habitat;Saint-Fons;69199;1146
+691990303;Grande Terre;H;Habitat;Saint-Fons;69199;1147
+691990401;Clochette Nord;H;Habitat;Saint-Fons;69199;1148
+691990402;Clochette Sud;H;Habitat;Saint-Fons;69199;1149
+692020101;Chantegrillet;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1150
+692020102;Les Dames-Grand Vallon;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1151
+692020103;Plan Du Loup;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1152
+692020201;Saint-Luc;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1153
+692020202;Chavril;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1154
+692020203;Les Provinces;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1155
+692020301;Fontanières;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1156
+692020302;Centre;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1157
+692020401;Les Balmes;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1158
+692020402;La Gravière Beaunant;H;Habitat;Sainte-Foy-Lès-Lyon;69202;1159
+692040101;Moly;H;Habitat;Saint-Genis-Laval;69204;1160
+692040102;Ouest Saint-Genois;H;Habitat;Saint-Genis-Laval;69204;1161
+692040103;Basses Barolles;H;Habitat;Saint-Genis-Laval;69204;1162
+692040201;Hôpital;A;Activité;Saint-Genis-Laval;69204;1163
+692040202;Zone D'Activités;A;Activité;Saint-Genis-Laval;69204;1164
+692040204;Guilloux;H;Habitat;Saint-Genis-Laval;69204;1166
+692040205;Clos Chaurand;H;Habitat;Saint-Genis-Laval;69204;1167
+692040301;Centre-Bourg;H;Habitat;Saint-Genis-Laval;69204;1168
+692040302;Centre-Entrée Nord;H;Habitat;Saint-Genis-Laval;69204;1169
+692050000;Saint-Genis-Les-Ollières;Z;Commune Non Irisée;Saint-Genis-Les-Ollières;69205;1170
+692070000;Saint-Germain-Au-Mont-D'Or;Z;Commune Non Irisée;Saint-Germain-Au-Mont-D'Or;69207;1171
+692330000;Saint-Romain-Au-Mont-D'Or;Z;Commune Non Irisée;Saint-Romain-Au-Mont-D'Or;69233;1172
+692440101;Vallon De Charbonnières;H;Habitat;Tassin-La-Demi-Lune;69244;1173
+692440102;Tassin-Le Bourg;H;Habitat;Tassin-La-Demi-Lune;69244;1174
+692440201;Centre Ville;H;Habitat;Tassin-La-Demi-Lune;69244;1175
+692440202;Montribloud-Boyer;H;Habitat;Tassin-La-Demi-Lune;69244;1176
+692440203;La Raude;H;Habitat;Tassin-La-Demi-Lune;69244;1177
+692500000;La Tour-De-Salvagny;Z;Commune Non Irisée;La Tour-De-Salvagny;69250;1178
+692560101;Les Îles;D;Divers;Vaulx-En-Velin;69256;1179
+692560102;Z.A. Est;A;Activité;Vaulx-En-Velin;69256;1180
+692560201;Village Centre;H;Habitat;Vaulx-En-Velin;69256;1181
+692560202;Village Sud;H;Habitat;Vaulx-En-Velin;69256;1182
+692560203;Village Nord;H;Habitat;Vaulx-En-Velin;69256;1183
+692560301;Grappinière-Petit Pont;H;Habitat;Vaulx-En-Velin;69256;1184
+692560302;Grolières-Noirettes;H;Habitat;Vaulx-En-Velin;69256;1185
+692560401;Sauveteur Sud;H;Habitat;Vaulx-En-Velin;69256;1186
+692560402;Sauveteur Nord;H;Habitat;Vaulx-En-Velin;69256;1187
+692560404;Mas Du Taureau Sud;H;Habitat;Vaulx-En-Velin;69256;1189
+692560405;Pré De L'Herbe;H;Habitat;Vaulx-En-Velin;69256;1190
+692560501;Pont Des Planches;H;Habitat;Vaulx-En-Velin;69256;1191
+692560601;Écoin-Thibaude;H;Habitat;Vaulx-En-Velin;69256;1192
+692560602;Vernay;H;Habitat;Vaulx-En-Velin;69256;1193
+692560603;Verchères;H;Habitat;Vaulx-En-Velin;69256;1194
+692560701;La Soie-La Balme;H;Habitat;Vaulx-En-Velin;69256;1195
+692560702;Dumas-Genas;H;Habitat;Vaulx-En-Velin;69256;1196
+692590101;Tache Velin;A;Activité;Vénissieux;69259;1197
+692590102;Gabriel Péri;H;Habitat;Vénissieux;69259;1198
+692590103;Centre-Nord;H;Habitat;Vénissieux;69259;1199
+692590104;Centre Ville;H;Habitat;Vénissieux;69259;1200
+692590201;Z.I. Vénissieux-Corbas-Saint-Priest;A;Activité;Vénissieux;69259;1201
+692590202;Pasteur;H;Habitat;Vénissieux;69259;1202
+692590203;Charréard;H;Habitat;Vénissieux;69259;1203
+692590204;Max Barel;H;Habitat;Vénissieux;69259;1204
+692590301;Jean Moulin;H;Habitat;Vénissieux;69259;1205
+692590302;Henri Wallon;H;Habitat;Vénissieux;69259;1206
+692590303;Charles Perrault;H;Habitat;Vénissieux;69259;1207
+692590401;Saint-Exupéry;H;Habitat;Vénissieux;69259;1208
+692590402;Anatole France;H;Habitat;Vénissieux;69259;1209
+692590403;Armstrong;H;Habitat;Vénissieux;69259;1210
+692590501;Louis Pergaud;H;Habitat;Vénissieux;69259;1211
+692590502;Léo Lagrange;H;Habitat;Vénissieux;69259;1212
+692590602;Ernest Renan;H;Habitat;Vénissieux;69259;1214
+692590701;Georges Lévy;H;Habitat;Vénissieux;69259;1215
+692590702;Joliot-Curie;H;Habitat;Vénissieux;69259;1216
+692590801;Clos Verger;H;Habitat;Vénissieux;69259;1217
+692590802;Parilly;H;Habitat;Vénissieux;69259;1218
+692590803;Jules Guesde;H;Habitat;Vénissieux;69259;1219
+692590804;R.V.I.;A;Activité;Vénissieux;69259;1220
+692600000;Vernaison;Z;Commune Non Irisée;Vernaison;69260;1221
+692660101;Charmettes;H;Habitat;Villeurbanne;69266;1222
+692660102;Charles Hernu;H;Habitat;Villeurbanne;69266;1223
+692660103;Charpenne-Wilson;H;Habitat;Villeurbanne;69266;1224
+692660201;Doua;A;Activité;Villeurbanne;69266;1225
+692660202;11 Novembre;H;Habitat;Villeurbanne;69266;1226
+692660301;Tonkin Sud;H;Habitat;Villeurbanne;69266;1227
+692660302;Espace-Central;H;Habitat;Villeurbanne;69266;1228
+692660401;Stalingrad;A;Activité;Villeurbanne;69266;1229
+692660402;Tonkin Ouest;H;Habitat;Villeurbanne;69266;1230
+692660403;Tonkin Nord;H;Habitat;Villeurbanne;69266;1231
+692660501;Croix Luizet Ouest;H;Habitat;Villeurbanne;69266;1232
+692660502;Croix Luizet Est;H;Habitat;Villeurbanne;69266;1233
+692660601;Einstein-Salengro;H;Habitat;Villeurbanne;69266;1234
+692660701;Buers Est;H;Habitat;Villeurbanne;69266;1235
+692660702;Buers Nord;H;Habitat;Villeurbanne;69266;1236
+692660703;Buers Sud;H;Habitat;Villeurbanne;69266;1237
+692660801;Saint-Jean;H;Habitat;Villeurbanne;69266;1238
+692660901;Poulettes Nord;H;Habitat;Villeurbanne;69266;1239
+692660902;Les Poulettes;H;Habitat;Villeurbanne;69266;1240
+692660903;Château Gaillard;H;Habitat;Villeurbanne;69266;1241
+692661001;Zola-Pressensé Ouest;H;Habitat;Villeurbanne;69266;1242
+692661002;Zola-Pressensé Est;H;Habitat;Villeurbanne;69266;1243
+692661101;Gratte-Ciel;H;Habitat;Villeurbanne;69266;1244
+692661201;République;H;Habitat;Villeurbanne;69266;1245
+692661202;Albert Thomas;H;Habitat;Villeurbanne;69266;1246
+692661203;Gratte-Ciel Ouest;H;Habitat;Villeurbanne;69266;1247
+692661204;Gratte-Ciel Est;H;Habitat;Villeurbanne;69266;1248
+692661205;Tolstoï Nord;H;Habitat;Villeurbanne;69266;1249
+692661301;Tolstoï Sud;H;Habitat;Villeurbanne;69266;1250
+692661302;Ferrandière;H;Habitat;Villeurbanne;69266;1251
+692661303;Maisons Neuves;H;Habitat;Villeurbanne;69266;1252
+692661402;Damidot;H;Habitat;Villeurbanne;69266;1254
+692661403;Perralière;H;Habitat;Villeurbanne;69266;1255
+692661404;Pierre Cacard;H;Habitat;Villeurbanne;69266;1256
+692661501;Grandclément-Blum;H;Habitat;Villeurbanne;69266;1257
+692661502;Genas;H;Habitat;Villeurbanne;69266;1258
+692661503;Grandclément;H;Habitat;Villeurbanne;69266;1259
+692661601;Cusset-Ouest;H;Habitat;Villeurbanne;69266;1260
+692661602;Bonnevay;H;Habitat;Villeurbanne;69266;1261
+692661701;Jacques Monod;H;Habitat;Villeurbanne;69266;1262
+692661702;Réguillon;H;Habitat;Villeurbanne;69266;1263
+692661703;Fays-Bon Coin;H;Habitat;Villeurbanne;69266;1264
+692661704;Fays-Est;H;Habitat;Villeurbanne;69266;1265
+692661801;La Soie;A;Activité;Villeurbanne;69266;1266
+692661802;Bel-Air;H;Habitat;Villeurbanne;69266;1267
+692661803;Les Brosses;H;Habitat;Villeurbanne;69266;1268
+692661804;Poudrette;H;Habitat;Villeurbanne;69266;1269
+692710101;Eurexpo Mi-Plaine;A;Activité;Chassieu;69271;1270
+692710102;Chassieu Le Bas;A;Activité;Chassieu;69271;1271
+692710103;Chassieu Le Haut;H;Habitat;Chassieu;69271;1272
+692710104;Les Coteaux;H;Habitat;Chassieu;69271;1273
+692710105;Tarentelles;H;Habitat;Chassieu;69271;1274
+692730101;Zone D'Activités;A;Activité;Corbas;69273;1275
+692730102;Balmes Bourlione;H;Habitat;Corbas;69273;1276
+692730103;Village Chambarras;H;Habitat;Corbas;69273;1277
+692730104;Taillis Romanette;H;Habitat;Corbas;69273;1278
+692750101;Centre;H;Habitat;Décines-Charpieu;69275;1279
+692750103;Berthaudières;H;Habitat;Décines-Charpieu;69275;1281
+692750104;Cornavent;H;Habitat;Décines-Charpieu;69275;1282
+692750105;Le Prainet;H;Habitat;Décines-Charpieu;69275;1283
+692750106;Charpieu;H;Habitat;Décines-Charpieu;69275;1284
+692750107;Bonneveau;H;Habitat;Décines-Charpieu;69275;1285
+692750108;Champ Blanc;H;Habitat;Décines-Charpieu;69275;1286
+692750109;Roosevelt-Wilson;A;Activité;Décines-Charpieu;69275;1287
+692750110;La Soie;H;Habitat;Décines-Charpieu;69275;1288
+692750111;Les Marais;D;Divers;Décines-Charpieu;69275;1289
+692750112;Grand Large-Montout;D;Divers;Décines-Charpieu;69275;1290
+692760101;Les Razes;H;Habitat;Feyzin;69276;1291
+692760102;Géraniums-Champlantier-La Bégude;H;Habitat;Feyzin;69276;1292
+692760103;Le Bandonnier-Les Maures;H;Habitat;Feyzin;69276;1293
+692780000;Genay;Z;Commune Non Irisée;Genay;69278;1294
+692790101;Nord;H;Habitat;Jonage;69279;1295
+692790102;Sud;H;Habitat;Jonage;69279;1296
+692820101;Le Rontet;H;Habitat;Meyzieu;69282;1297
+692820102;Grand Large;H;Habitat;Meyzieu;69282;1298
+692820103;Le Carreau Ouest;H;Habitat;Meyzieu;69282;1299
+692820104;Le Carreau Nord;H;Habitat;Meyzieu;69282;1300
+692820201;La Jacquière;H;Habitat;Meyzieu;69282;1301
+692820202;Le Dérippe;H;Habitat;Meyzieu;69282;1302
+692820203;Les Balmes;H;Habitat;Meyzieu;69282;1303
+692820204;Les Gaulnes;A;Activité;Meyzieu;69282;1304
+692820301;Centre;H;Habitat;Meyzieu;69282;1305
+692820401;Les Panettes;A;Activité;Meyzieu;69282;1306
+692820402;Le Fort;H;Habitat;Meyzieu;69282;1307
+692820403;Les Plantées;H;Habitat;Meyzieu;69282;1308
+692820501;Mathiolan;H;Habitat;Meyzieu;69282;1309
+692820502;Le Trillet;H;Habitat;Meyzieu;69282;1310
+692820601;Les Marais;D;Divers;Meyzieu;69282;1311
+692830101;Mions Nord;H;Habitat;Mions;69283;1312
+692830102;Mions Centre;H;Habitat;Mions;69283;1313
+692830103;Mions Ouest;H;Habitat;Mions;69283;1314
+692830104;Mions Sud-Est;H;Habitat;Mions;69283;1315
+692840000;Montanay;Z;Commune Non Irisée;Montanay;69284;1316
+692860101;Vancia;H;Habitat;Rillieux-La-Pape;69286;1317
+692860102;Crépieux;H;Habitat;Rillieux-La-Pape;69286;1318
+692860201;Alagniers Sud;H;Habitat;Rillieux-La-Pape;69286;1319
+692860202;Mont Blanc;H;Habitat;Rillieux-La-Pape;69286;1320
+692860301;Velette;H;Habitat;Rillieux-La-Pape;69286;1321
+692860302;Leclerc;H;Habitat;Rillieux-La-Pape;69286;1322
+692860303;Semailles Sud;H;Habitat;Rillieux-La-Pape;69286;1323
+692860304;Semailles Nord;H;Habitat;Rillieux-La-Pape;69286;1324
+692860401;Ravel;H;Habitat;Rillieux-La-Pape;69286;1325
+692860402;Alagniers Nord;H;Habitat;Rillieux-La-Pape;69286;1326
+692860501;Perica-La Roue;H;Habitat;Rillieux-La-Pape;69286;1327
+692860502;Village;H;Habitat;Rillieux-La-Pape;69286;1328
+692900101;Bellevue;H;Habitat;Saint-Priest;69290;1329
+692900102;Alpes;H;Habitat;Saint-Priest;69290;1330
+692900103;Diderot-Aliende;H;Habitat;Saint-Priest;69290;1331
+692900104;Colette-Plaine De Sayte;H;Habitat;Saint-Priest;69290;1332
+692900105;Herriot-Carré Rostand;H;Habitat;Saint-Priest;69290;1333
+692900201;Fouillouse;H;Habitat;Saint-Priest;69290;1334
+692900202;Marendiers;H;Habitat;Saint-Priest;69290;1335
+692900301;Cité Berliet-La Gare;H;Habitat;Saint-Priest;69290;1336
+692900302;Garibaldi;H;Habitat;Saint-Priest;69290;1337
+692900401;Bel-Air 1;H;Habitat;Saint-Priest;69290;1338
+692900402;Bel-Air 2;H;Habitat;Saint-Priest;69290;1339
+692900403;Bel-Air 3;H;Habitat;Saint-Priest;69290;1340
+692900404;La Cordière;H;Habitat;Saint-Priest;69290;1341
+692900405;Ménival-Clairon;H;Habitat;Saint-Priest;69290;1342
+692900501;Revaison Ouest;H;Habitat;Saint-Priest;69290;1343
+692900502;Revaison Est;H;Habitat;Saint-Priest;69290;1344
+692900601;Village Ouest;H;Habitat;Saint-Priest;69290;1345
+692900602;Village Est;H;Habitat;Saint-Priest;69290;1346
+692900701;Porte Des Alpes;A;Activité;Saint-Priest;69290;1347
+692900702;Mi-Plaine-Manissieux;A;Activité;Saint-Priest;69290;1348
+692920000;Sathonay-Camp;Z;Commune Non Irisée;Sathonay-Camp;69292;1349
+692930000;Sathonay-Village;Z;Commune Non Irisée;Sathonay-Village;69293;1350
+692960000;Solaize;Z;Commune Non Irisée;Solaize;69296;1351
+693810101;Terreaux-Bât D'Argent;H;Habitat;Lyon 1Er Arrondissement;69381;1352
+693810102;Louis Pradel;A;Activité;Lyon 1Er Arrondissement;69381;1353
+693810201;Griffon-Royale;H;Habitat;Lyon 1Er Arrondissement;69381;1354
+693810202;Capucins-Griffon;H;Habitat;Lyon 1Er Arrondissement;69381;1355
+693810301;Grande Côte-Bon Pasteur;H;Habitat;Lyon 1Er Arrondissement;69381;1356
+693810302;Trois Gaules;H;Habitat;Lyon 1Er Arrondissement;69381;1357
+693810303;Annonciade-Saint-Benoit;H;Habitat;Lyon 1Er Arrondissement;69381;1358
+693810304;Chardonnet;H;Habitat;Lyon 1Er Arrondissement;69381;1359
+693810401;Normale-Chartreux;H;Habitat;Lyon 1Er Arrondissement;69381;1360
+693810402;Giraud-Saint-Vincent;H;Habitat;Lyon 1Er Arrondissement;69381;1361
+693810501;Mairie-Martinière;H;Habitat;Lyon 1Er Arrondissement;69381;1362
+693820101;La Bourse-Grenette;H;Habitat;Lyon 2E Arrondissement;69382;1363
+693820102;Mercière-Grolée;H;Habitat;Lyon 2E Arrondissement;69382;1364
+693820103;Jacobins;A;Activité;Lyon 2E Arrondissement;69382;1365
+693820201;Hôtel-Dieu;A;Activité;Lyon 2E Arrondissement;69382;1366
+693820202;Bellecour-Antonin Gourju;H;Habitat;Lyon 2E Arrondissement;69382;1367
+693820203;Grande Poste;A;Activité;Lyon 2E Arrondissement;69382;1368
+693820204;Bellecour-Sala;H;Habitat;Lyon 2E Arrondissement;69382;1369
+693820301;Vaubecour-Mairie;H;Habitat;Lyon 2E Arrondissement;69382;1370
+693820302;Ampère-Ainay;H;Habitat;Lyon 2E Arrondissement;69382;1371
+693820401;Gailleton-Auguste Comte;H;Habitat;Lyon 2E Arrondissement;69382;1372
+693820402;Carnot-Charité;H;Habitat;Lyon 2E Arrondissement;69382;1373
+693820501;Montrochet-Marché-Gare;A;Activité;Lyon 2E Arrondissement;69382;1374
+693820502;Rambaud-Seguin;H;Habitat;Lyon 2E Arrondissement;69382;1375
+693820503;Verdun-Suchet;H;Habitat;Lyon 2E Arrondissement;69382;1376
+693820504;Sainte-Blandine-Casimir Perier;H;Habitat;Lyon 2E Arrondissement;69382;1377
+693830101;Préfecture;A;Activité;Lyon 3E Arrondissement;69383;1378
+693830102;Jussieu;H;Habitat;Lyon 3E Arrondissement;69383;1379
+693830103;Les Halles;H;Habitat;Lyon 3E Arrondissement;69383;1380
+693830104;Bonnel-Servient;H;Habitat;Lyon 3E Arrondissement;69383;1381
+693830105;Mutualité-Liberté;H;Habitat;Lyon 3E Arrondissement;69383;1382
+693830201;Moncey;H;Habitat;Lyon 3E Arrondissement;69383;1383
+693830202;Voltaire;H;Habitat;Lyon 3E Arrondissement;69383;1384
+693830203;Saxe-Villeroy;H;Habitat;Lyon 3E Arrondissement;69383;1385
+693830204;Saint-Amour;H;Habitat;Lyon 3E Arrondissement;69383;1386
+693830205;Mairie-Saint-Sacrement;H;Habitat;Lyon 3E Arrondissement;69383;1387
+693830301;Part Dieu;A;Activité;Lyon 3E Arrondissement;69383;1388
+693830302;Danton-Bir Hakeim;H;Habitat;Lyon 3E Arrondissement;69383;1389
+693830401;Villette Gare;H;Habitat;Lyon 3E Arrondissement;69383;1390
+693830404;Baraban-Ferrandière;H;Habitat;Lyon 3E Arrondissement;69383;1393
+693830405;Saint-Anne De Baraban;H;Habitat;Lyon 3E Arrondissement;69383;1394
+693830501;Villette-Paul Bert;H;Habitat;Lyon 3E Arrondissement;69383;1395
+693830502;Paul Bert-Maisons Neuves;H;Habitat;Lyon 3E Arrondissement;69383;1396
+693830601;Rouget De Lisle-Félix Faure;H;Habitat;Lyon 3E Arrondissement;69383;1397
+693830602;Dauphiné-Montluc;H;Habitat;Lyon 3E Arrondissement;69383;1398
+693830603;Saint-Maximin-Sisley;H;Habitat;Lyon 3E Arrondissement;69383;1399
+693830701;Genas Cfel;H;Habitat;Lyon 3E Arrondissement;69383;1401
+693830702;Jules Verne-Acacias;H;Habitat;Lyon 3E Arrondissement;69383;1402
+693830703;Monchat-Bonnand;H;Habitat;Lyon 3E Arrondissement;69383;1403
+693830801;Feuillat Harmonie;H;Habitat;Lyon 3E Arrondissement;69383;1404
+693830802;Trarieux-Lacassagne;H;Habitat;Lyon 3E Arrondissement;69383;1405
+693830803;Grange Blanche;A;Activité;Lyon 3E Arrondissement;69383;1406
+693830804;Chaussagne Desgenettes;H;Habitat;Lyon 3E Arrondissement;69383;1407
+693830901;Richard Vitton-Docteur Long;H;Habitat;Lyon 3E Arrondissement;69383;1408
+693830902;Chambovet-Pinel;H;Habitat;Lyon 3E Arrondissement;69383;1409
+693840101;Herbouville-Gros Caillou;H;Habitat;Lyon 4E Arrondissement;69384;1410
+693840102;Boucle Louis Thevenet;H;Habitat;Lyon 4E Arrondissement;69384;1411
+693840103;Commandant Arnaud-Dumont D'Urville;H;Habitat;Lyon 4E Arrondissement;69384;1412
+693840201;Hôpital-Saint-Denis;A;Activité;Lyon 4E Arrondissement;69384;1413
+693840202;Grande Rue-Bertone;H;Habitat;Lyon 4E Arrondissement;69384;1414
+693840203;Place Croix Rousse-Austerlitz;H;Habitat;Lyon 4E Arrondissement;69384;1415
+693840204;Cuire Canuts;H;Habitat;Lyon 4E Arrondissement;69384;1416
+693840301;Deleuvre-Henon;H;Habitat;Lyon 4E Arrondissement;69384;1417
+693840302;Canuts-Denfert-Rochereau;H;Habitat;Lyon 4E Arrondissement;69384;1418
+693840303;Mairie-Tabareau;H;Habitat;Lyon 4E Arrondissement;69384;1419
+693840401;Saint-Exupéry-Popy;H;Habitat;Lyon 4E Arrondissement;69384;1420
+693840402;Flammarion Bony;H;Habitat;Lyon 4E Arrondissement;69384;1421
+693840403;Bony Bonnet;H;Habitat;Lyon 4E Arrondissement;69384;1422
+693840501;Lyon Plage-Ypres;H;Habitat;Lyon 4E Arrondissement;69384;1423
+693840502;Gillet Serein;H;Habitat;Lyon 4E Arrondissement;69384;1424
+693850101;Saint-Paul;H;Habitat;Lyon 5E Arrondissement;69385;1425
+693850102;Saint-Jean;H;Habitat;Lyon 5E Arrondissement;69385;1426
+693850103;Saint-Georges;H;Habitat;Lyon 5E Arrondissement;69385;1427
+693850104;Quarantaine-Les Étroits;H;Habitat;Lyon 5E Arrondissement;69385;1428
+693850201;Fourvière-Antiquaille;A;Activité;Lyon 5E Arrondissement;69385;1429
+693850202;La Sarra;H;Habitat;Lyon 5E Arrondissement;69385;1430
+693850203;Loyasse-Saint-Just;H;Habitat;Lyon 5E Arrondissement;69385;1431
+693850204;Radisson-Choulans;H;Habitat;Lyon 5E Arrondissement;69385;1432
+693850301;Champvert Sud;H;Habitat;Lyon 5E Arrondissement;69385;1433
+693850302;Champvert Mairie;H;Habitat;Lyon 5E Arrondissement;69385;1434
+693850401;Debrousse;A;Activité;Lyon 5E Arrondissement;69385;1435
+693850402;Saint-Irénée;H;Habitat;Lyon 5E Arrondissement;69385;1436
+693850403;Les Castors-Les Granges;H;Habitat;Lyon 5E Arrondissement;69385;1437
+693850404;Albéric Pont;H;Habitat;Lyon 5E Arrondissement;69385;1438
+693850501;Les Battières;H;Habitat;Lyon 5E Arrondissement;69385;1439
+693850502;Ménival;H;Habitat;Lyon 5E Arrondissement;69385;1440
+693850503;Pierre Valdo;H;Habitat;Lyon 5E Arrondissement;69385;1441
+693850504;La Plaine Charcot;H;Habitat;Lyon 5E Arrondissement;69385;1442
+693850601;Joliot Curie-Les Aqueducs;H;Habitat;Lyon 5E Arrondissement;69385;1443
+693850602;Point Du Jour;H;Habitat;Lyon 5E Arrondissement;69385;1444
+693850603;La Garde;H;Habitat;Lyon 5E Arrondissement;69385;1445
+693860101;Cité Internationale;A;Activité;Lyon 6E Arrondissement;69386;1446
+693860102;Le Parc;D;Divers;Lyon 6E Arrondissement;69386;1447
+693860103;Les Belges;H;Habitat;Lyon 6E Arrondissement;69386;1448
+693860104;L'Helvétie;H;Habitat;Lyon 6E Arrondissement;69386;1449
+693860201;Puvis De Chavannes;H;Habitat;Lyon 6E Arrondissement;69386;1450
+693860202;Mongolfier-Le Lycée;H;Habitat;Lyon 6E Arrondissement;69386;1451
+693860301;Maréchal Lyautey;H;Habitat;Lyon 6E Arrondissement;69386;1452
+693860302;Kléber;H;Habitat;Lyon 6E Arrondissement;69386;1453
+693860303;Vitton;H;Habitat;Lyon 6E Arrondissement;69386;1454
+693860304;Les Brotteaux;H;Habitat;Lyon 6E Arrondissement;69386;1455
+693860401;Molière;H;Habitat;Lyon 6E Arrondissement;69386;1456
+693860402;Saxe-Bossuet;H;Habitat;Lyon 6E Arrondissement;69386;1457
+693860403;Edgard Quinet;H;Habitat;Lyon 6E Arrondissement;69386;1458
+693860501;Mairie;H;Habitat;Lyon 6E Arrondissement;69386;1459
+693860502;L'Europe;H;Habitat;Lyon 6E Arrondissement;69386;1460
+693860503;Vauban;H;Habitat;Lyon 6E Arrondissement;69386;1461
+693860601;Jules Ferry;H;Habitat;Lyon 6E Arrondissement;69386;1462
+693860602;Bossuet Ney;H;Habitat;Lyon 6E Arrondissement;69386;1463
+693860603;Juliette Récamier;H;Habitat;Lyon 6E Arrondissement;69386;1464
+693860701;Bellecombe-Thiers;H;Habitat;Lyon 6E Arrondissement;69386;1465
+693860702;Les Charmettes-Lafayette;H;Habitat;Lyon 6E Arrondissement;69386;1466
+693870101;Pasteur;H;Habitat;Lyon 7E Arrondissement;69387;1467
+693870102;Universités;H;Habitat;Lyon 7E Arrondissement;69387;1468
+693870103;Centre Berthelot;H;Habitat;Lyon 7E Arrondissement;69387;1469
+693870201;Saint-Michel;H;Habitat;Lyon 7E Arrondissement;69387;1470
+693870202;Le Prado;H;Habitat;Lyon 7E Arrondissement;69387;1471
+693870203;Mairie;H;Habitat;Lyon 7E Arrondissement;69387;1472
+693870301;Victor Basch;H;Habitat;Lyon 7E Arrondissement;69387;1473
+693870302;Saint-Louis;H;Habitat;Lyon 7E Arrondissement;69387;1474
+693870401;Domer;H;Habitat;Lyon 7E Arrondissement;69387;1475
+693870402;Jean Macé;H;Habitat;Lyon 7E Arrondissement;69387;1476
+693870403;Route De Vienne;H;Habitat;Lyon 7E Arrondissement;69387;1477
+693870501;Jules Brunard;H;Habitat;Lyon 7E Arrondissement;69387;1478
+693870502;Stalingrad;H;Habitat;Lyon 7E Arrondissement;69387;1479
+693870503;Lamothe;H;Habitat;Lyon 7E Arrondissement;69387;1480
+693870601;Yves Farges;H;Habitat;Lyon 7E Arrondissement;69387;1481
+693870602;Le Fleuve;H;Habitat;Lyon 7E Arrondissement;69387;1482
+693870603;Le Rhône;H;Habitat;Lyon 7E Arrondissement;69387;1483
+693870701;L'Artillerie-La Gare;A;Activité;Lyon 7E Arrondissement;69387;1484
+693870703;Cité Jardin;H;Habitat;Lyon 7E Arrondissement;69387;1485
+693870704;Jean-Jaurès Sud;H;Habitat;Lyon 7E Arrondissement;69387;1486
+693870705;Jean-Jaurès Nord;H;Habitat;Lyon 7E Arrondissement;69387;1487
+693870801;Marcel Mérieux;H;Habitat;Lyon 7E Arrondissement;69387;1488
+693870802;Tony Garnier;H;Habitat;Lyon 7E Arrondissement;69387;1489
+693870901;La Mouche-Le Port;A;Activité;Lyon 7E Arrondissement;69387;1490
+693880104;Marius Berliet Nord;H;Habitat;Lyon 8E Arrondissement;69388;1493
+693880105;Marius Berliet Sud;H;Habitat;Lyon 8E Arrondissement;69388;1494
+693880202;Les Alouettes-Bachut;H;Habitat;Lyon 8E Arrondissement;69388;1495
+693830403;Pompidou;A;Activité;Lyon 3E Arrondissement;69383;1392
+693880203;Montplaisir Nord;H;Habitat;Lyon 8E Arrondissement;69388;1496
+693880204;Montplaisir Sud;H;Habitat;Lyon 8E Arrondissement;69388;1497
+693880301;Laennec;H;Habitat;Lyon 8E Arrondissement;69388;1498
+693880302;Rockefeller-La Buire;H;Habitat;Lyon 8E Arrondissement;69388;1499
+693880303;Bataille;H;Habitat;Lyon 8E Arrondissement;69388;1500
+693880401;Latarget-Mermoz;H;Habitat;Lyon 8E Arrondissement;69388;1501
+693880402;La Trinité-Mermoz;H;Habitat;Lyon 8E Arrondissement;69388;1502
+693880403;Genton-Ranvier;H;Habitat;Lyon 8E Arrondissement;69388;1503
+693880404;Mairie;H;Habitat;Lyon 8E Arrondissement;69388;1504
+693880501;Pinel Santy;H;Habitat;Lyon 8E Arrondissement;69388;1505
+693880502;La Plaine;H;Habitat;Lyon 8E Arrondissement;69388;1506
+693880503;Général André;H;Habitat;Lyon 8E Arrondissement;69388;1507
+693880601;Langlet Santy;H;Habitat;Lyon 8E Arrondissement;69388;1508
+693880602;Grange Rouge;H;Habitat;Lyon 8E Arrondissement;69388;1509
+693880701;Le Bocage;H;Habitat;Lyon 8E Arrondissement;69388;1511
+693880702;États-Unis;H;Habitat;Lyon 8E Arrondissement;69388;1512
+693880801;Moulin À Vent;H;Habitat;Lyon 8E Arrondissement;69388;1513
+693880802;Audibert-La Virotte;H;Habitat;Lyon 8E Arrondissement;69388;1514
+693880901;Petite Guille;H;Habitat;Lyon 8E Arrondissement;69388;1515
+693880902;Grand Trou;H;Habitat;Lyon 8E Arrondissement;69388;1516
+693880903;Montagny-Saint-Jean De Dieu;H;Habitat;Lyon 8E Arrondissement;69388;1517
+693890101;Montessuy-Le Vergoin;H;Habitat;Lyon 9E Arrondissement;69389;1518
+693890102;Les Trois Gouttes-Grand Champ;H;Habitat;Lyon 9E Arrondissement;69389;1519
+693890103;Louis Bouquet-Jean Perrin;H;Habitat;Lyon 9E Arrondissement;69389;1520
+693890104;Balmont Est;H;Habitat;Lyon 9E Arrondissement;69389;1521
+693890201;L'Industrie-Le Bourg;H;Habitat;Lyon 9E Arrondissement;69389;1522
+693890202;La Gare D'Eau;A;Activité;Lyon 9E Arrondissement;69389;1523
+693890203;Rochecardon-Gare De Vaise;H;Habitat;Lyon 9E Arrondissement;69389;1524
+693890301;Salengro;H;Habitat;Lyon 9E Arrondissement;69389;1525
+693890302;Saint-Simon-Marietton;H;Habitat;Lyon 9E Arrondissement;69389;1526
+693890303;Mairie;H;Habitat;Lyon 9E Arrondissement;69389;1527
+693890401;Saint-Pierre De Vaise;H;Habitat;Lyon 9E Arrondissement;69389;1528
+693890402;Arloing-L'Observance;H;Habitat;Lyon 9E Arrondissement;69389;1529
+693890403;Le Béal-Gorge De Loup;H;Habitat;Lyon 9E Arrondissement;69389;1530
+693890501;La Grivière;H;Habitat;Lyon 9E Arrondissement;69389;1531
+693890502;Champvert Nord;H;Habitat;Lyon 9E Arrondissement;69389;1532
+693890604;La Sauvegarde;H;Habitat;Lyon 9E Arrondissement;69389;1533
+692560403;Mas Du Taureau Nord;H;Habitat;Vaulx-En-Velin;69256;1188
+693880102;Colbert;H;Habitat;Lyon 8E Arrondissement;69388;1492
+690910101;Vernes Haut;H;Habitat;Givors;69091;1094
+690030000;Albigny-Sur-Saône;Z;Commune Non Irisée;Albigny-Sur-Saône;69003;1025
+690290101;Les Genêts-Hôpitaux;H;Habitat;Bron;69029;1026
+690290102;Gendarmerie-Garenne;H;Habitat;Bron;69029;1027
+690290103;Dubœuf-Camille Rousset;H;Habitat;Bron;69029;1028
+692040203;Champlong;H;Habitat;Saint-Genis-Laval;69204;1165
+692590601;Moulin À Vent;H;Habitat;Vénissieux;69259;1213
+692661401;Droits De L'Homme;H;Habitat;Villeurbanne;69266;1253
+692750102;Sablon;H;Habitat;Décines-Charpieu;69275;1280
+693830402;Richerand-Petites Sœurs;H;Habitat;Lyon 3E Arrondissement;69383;1391
+693880101;Jean Moulin;H;Habitat;Lyon 8E Arrondissement;69388;1491
+693880603;Viviani;H;Habitat;Lyon 8E Arrondissement;69388;1510
+693890605;Balmont Le Fort;H;Habitat;Lyon 9E Arrondissement;69389;1534
+693890606;Le Château;H;Habitat;Lyon 9E Arrondissement;69389;1535
+693890607;Le Plateau;H;Habitat;Lyon 9E Arrondissement;69389;1536
