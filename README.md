@@ -159,3 +159,9 @@ Après l'exécution, deux sorties sont créées :
  
 DuckDB est la base de données dans laquelle l'ETL charge toutes les tables nettoyées.
 Le fichier `warehouse.duckdb` est créé automatiquement à la racine du projet après le premier lancement de l'ETL.
+
+
+
+
+
+test new
