@@ -1,6 +1,6 @@
-data_path: "D:\\MSPR_CODE\\MSPR_BLOC3_MASTER1\\DATA"
-output_path: "D:/MSPR_CODE/MSPR_BLOC3_MASTER1/data_clean"
-db_path:     "D:/MSPR_CODE/MSPR_BLOC3_MASTER1/warehouse.duckdb"
+data_path: "D:/code mspr/MSPR_BLOC3_MASTER1/DATA"
+output_path: "D:/code mspr/MSPR_BLOC3_MASTER1/data_clean"
+db_path:     "D:/code mspr/MSPR_BLOC3_MASTER1/warehouse.duckdb"
  
 files:
   t1:       "Premier_tour_rhone_sep.csv"
