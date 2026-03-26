@@ -28,6 +28,8 @@ import os
 import logging
 from datetime import datetime
 
+import unicodedata
+
 import yaml
 import pandas as pd
 import duckdb
@@ -131,6 +133,51 @@ class ETL:
             s = s.str.zfill(zfill)
         return s
 
+    @staticmethod
+    def _repair_mojibake_text(value):
+        if pd.isna(value):
+            return value
+
+        text = str(value).strip()
+        if text == "" or text.lower() == "nan":
+            return pd.NA
+
+        if any(ch in text for ch in ("Ã", "Â", "â", "ð", "�")):
+            try:
+                text = text.encode("latin1", errors="ignore").decode("utf-8", errors="ignore")
+            except:
+                pass
+
+        return text
+
+
+    def _clean_text_series(self, series: pd.Series, remove_accents: bool = False) -> pd.Series:
+        s = series.apply(self._repair_mojibake_text)
+        s = s.astype("string").str.strip().str.title()
+
+        s = s.replace({
+            "Rhone": "Rhône",
+            "1Ere": "1ère",
+            "2Eme": "2ème",
+            "3Eme": "3ème",
+            "4Eme": "4ème",
+            "5Eme": "5ème",
+            "6Eme": "6ème",
+            "7Eme": "7ème",
+            "8Eme": "8ème",
+            "9Eme": "9ème",
+        })
+
+        s = s.str.replace(r"(\d+)Ème", r"\1ème", regex=True)
+
+        if remove_accents:
+            s = s.apply(
+                lambda x: unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode("ascii")
+                if pd.notna(x) else x
+            )
+
+        return s
+
     def _add_quality_row(
         self,
         table_name: str,
@@ -213,9 +260,20 @@ class ETL:
         df = df[df["votants"] <= df["inscrits"]]
         df = df[df["exprimes"] == (df["votants"] - df["blancs"] - df["nuls"])]
 
-        for col in ["libelle_commune", "libelle_circonscription", "libelle_departement"]:
+        text_cols = [
+            "libelle_commune",
+            "libelle_circonscription",
+            "libelle_departement",
+            "libelle_region"
+        ]
+
+        for col in text_cols:
             if col in df.columns:
-                df[col] = df[col].astype(str).str.strip().str.title()
+                df[col] = self._clean_text_series(df[col])
+
+        for col in text_cols:
+            if col in df.columns:
+                df[col] = self._clean_text_series(df[col], remove_accents=True)
 
         df["code_commune"] = self._safe_str(df["code_commune"], 5)
         df["code_departement"] = self._safe_str(df["code_departement"], 2)
