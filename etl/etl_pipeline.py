@@ -280,6 +280,14 @@ class ETL:
 
         if "code_circonscription" in df.columns:
             df["code_circonscription"] = self._safe_str(df["code_circonscription"])
+        
+        if "id_brut_miom" in df.columns:
+            df["id_brut_miom"] = (
+                df["id_brut_miom"]
+                .astype(str)
+                .str.strip()
+                .str.replace("_", "", regex=False)
+    )
 
         dup_before = len(df)
         df = df.drop_duplicates()
