@@ -370,3 +370,61 @@ PermissionError: [Errno 13] Permission denied: 'D:/code mspr/MSPR_BLOC3_MASTER1/
 2026-03-26 11:01:41,895 | INFO |    CSV     → D:/code mspr/MSPR_BLOC3_MASTER1/data_clean
 2026-03-26 11:01:41,895 | INFO |    DuckDB  → D:/code mspr/MSPR_BLOC3_MASTER1/warehouse.duckdb
 2026-03-26 11:01:41,896 | INFO |    Log     → etl.log
+2026-03-26 15:55:45,503 | INFO | === Démarrage ETL ===
+2026-03-26 15:55:45,504 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-26 15:55:46,169 | INFO |   t1           →   1317 lignes brutes
+2026-03-26 15:55:46,169 | INFO |   t2           →   1317 lignes brutes
+2026-03-26 15:55:46,169 | INFO |   securite     →  18180 lignes brutes
+2026-03-26 15:55:46,169 | INFO |   emploi       →  34903 lignes brutes
+2026-03-26 15:55:46,170 | INFO |   revenus      →    777 lignes brutes
+2026-03-26 15:55:46,170 | INFO |   diplomes     →  49276 lignes brutes
+2026-03-26 15:55:46,170 | INFO |   logement     →  49276 lignes brutes
+2026-03-26 15:55:46,170 | INFO |   iris         →    512 lignes brutes
+2026-03-26 15:55:46,170 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-03-26 15:55:46,226 | INFO |   tour1        →   1317 lignes propres
+2026-03-26 15:55:46,281 | INFO |   tour2        →   1317 lignes propres
+2026-03-26 15:55:46,301 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-03-26 15:55:46,316 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-03-26 15:55:46,321 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-03-26 15:55:46,369 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-03-26 15:55:46,425 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-03-26 15:55:46,429 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-03-26 15:55:46,437 | INFO |   dim_commune →    280 lignes
+2026-03-26 15:55:46,443 | INFO |   dim_departement →      1 lignes
+2026-03-26 15:55:46,443 | INFO |   dim_temps   →      3 lignes
+2026-03-26 15:55:46,443 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-03-26 15:55:46,465 | INFO |   CSV    → fact_election_tour1.csv  (1317 lignes)
+2026-03-26 15:55:46,598 | INFO |   DuckDB → fact_election_tour1
+2026-03-26 15:55:46,610 | INFO |   CSV    → fact_election_tour2.csv  (1317 lignes)
+2026-03-26 15:55:46,675 | INFO |   DuckDB → fact_election_tour2
+2026-03-26 15:55:46,676 | INFO |   CSV    → fact_securite.csv  (180 lignes)
+2026-03-26 15:55:46,718 | INFO |   DuckDB → fact_securite
+2026-03-26 15:55:46,721 | INFO |   CSV    → fact_emploi_pop_active.csv  (275 lignes)
+2026-03-26 15:55:46,757 | INFO |   DuckDB → fact_emploi_pop_active
+2026-03-26 15:55:46,759 | INFO |   CSV    → fact_revenus.csv  (23 lignes)
+2026-03-26 15:55:46,797 | INFO |   DuckDB → fact_revenus
+2026-03-26 15:55:46,808 | INFO |   CSV    → fact_diplomes.csv  (752 lignes)
+2026-03-26 15:55:46,852 | INFO |   DuckDB → fact_diplomes
+2026-03-26 15:55:46,866 | INFO |   CSV    → fact_logement.csv  (752 lignes)
+2026-03-26 15:55:46,914 | INFO |   DuckDB → fact_logement
+2026-03-26 15:55:46,917 | INFO |   CSV    → dim_iris_lyon.csv  (512 lignes)
+2026-03-26 15:55:46,961 | INFO |   DuckDB → dim_iris_lyon
+2026-03-26 15:55:46,964 | INFO |   CSV    → dim_commune.csv  (280 lignes)
+2026-03-26 15:55:47,002 | INFO |   DuckDB → dim_commune
+2026-03-26 15:55:47,003 | INFO |   CSV    → dim_departement.csv  (1 lignes)
+2026-03-26 15:55:47,047 | INFO |   DuckDB → dim_departement
+2026-03-26 15:55:47,049 | INFO |   CSV    → dim_temps.csv  (3 lignes)
+2026-03-26 15:55:47,088 | INFO |   DuckDB → dim_temps
+2026-03-26 15:55:47,090 | INFO | 
+  Rapport qualité → quality_report.csv
+2026-03-26 15:55:47,090 | INFO | 
+── VUES ANALYTIQUES ─────────────────────────────
+2026-03-26 15:55:47,125 | INFO |   Vues créées : vw_elections_communes, vw_indicateurs_territoires
+2026-03-26 15:55:47,125 | INFO | 
+✔ ETL terminé avec succès !
+2026-03-26 15:55:47,125 | INFO |    CSV     → D:/code mspr/MSPR_BLOC3_MASTER1/data_clean
+2026-03-26 15:55:47,125 | INFO |    DuckDB  → D:/code mspr/MSPR_BLOC3_MASTER1/warehouse.duckdb
+2026-03-26 15:55:47,125 | INFO |    Log     → etl.log
