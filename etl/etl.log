@@ -428,3 +428,131 @@ PermissionError: [Errno 13] Permission denied: 'D:/code mspr/MSPR_BLOC3_MASTER1/
 2026-03-26 15:55:47,125 | INFO |    CSV     → D:/code mspr/MSPR_BLOC3_MASTER1/data_clean
 2026-03-26 15:55:47,125 | INFO |    DuckDB  → D:/code mspr/MSPR_BLOC3_MASTER1/warehouse.duckdb
 2026-03-26 15:55:47,125 | INFO |    Log     → etl.log
+2026-03-31 16:19:24,090 | INFO | === Démarrage ETL ===
+2026-03-31 16:19:24,090 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:19:24,090 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 785, in run
+    raw = self.extract()
+          ^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 219, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:/code mspr/MSPR_BLOC3_MASTER1/DATA\Premier_tour_rhone_sep.csv
+2026-03-31 16:23:39,318 | INFO | === Démarrage ETL ===
+2026-03-31 16:23:39,318 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:23:39,318 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 785, in run
+    raw = self.extract()
+          ^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 219, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:/code mspr/MSPR_BLOC3_MASTER1/DATA\Premier_tour_rhone_sep.csv
+2026-03-31 16:45:33,141 | INFO | === Démarrage ETL ===
+2026-03-31 16:45:33,141 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:45:33,141 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 785, in run
+    raw = self.extract()
+          ^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 219, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:/code mspr/MSPR_BLOC3_MASTER1/DATA\Premier_tour_rhone_sep.csv
+2026-03-31 16:47:04,880 | INFO | === Démarrage ETL ===
+2026-03-31 16:47:04,880 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:47:04,881 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 785, in run
+    raw = self.extract()
+          ^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 219, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:/code mspr/MSPR_BLOC3_MASTER1/DATA/Premier_tour_rhone_sep.csv
+2026-03-31 16:48:10,624 | INFO | === Démarrage ETL ===
+2026-03-31 16:48:10,624 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:48:10,624 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 785, in run
+    raw = self.extract()
+          ^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 219, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MSPR_CODE\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:\code mspr\MSPR_BLOC3_MASTER1\DATA\Premier_tour_rhone_sep.csv
+2026-03-31 16:49:12,604 | INFO | === Démarrage ETL ===
+2026-03-31 16:49:12,604 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-03-31 16:49:13,233 | INFO |   t1           →   1317 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   t2           →   1317 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   securite     →  18180 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   emploi       →  34903 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   revenus      →    777 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   diplomes     →  49276 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   logement     →  49276 lignes brutes
+2026-03-31 16:49:13,233 | INFO |   iris         →    512 lignes brutes
+2026-03-31 16:49:13,233 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-03-31 16:49:13,290 | INFO |   tour1        →   1317 lignes propres
+2026-03-31 16:49:13,326 | INFO |   tour2        →   1317 lignes propres
+2026-03-31 16:49:13,341 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-03-31 16:49:13,346 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-03-31 16:49:13,358 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-03-31 16:49:13,391 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-03-31 16:49:13,429 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-03-31 16:49:13,429 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-03-31 16:49:13,444 | INFO |   dim_commune →    280 lignes
+2026-03-31 16:49:13,449 | INFO |   dim_departement →      1 lignes
+2026-03-31 16:49:13,449 | INFO |   dim_temps   →      3 lignes
+2026-03-31 16:49:13,449 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-03-31 16:49:13,462 | INFO |   CSV    → fact_election_tour1.csv  (1317 lignes)
+2026-03-31 16:49:13,559 | INFO |   DuckDB → fact_election_tour1
+2026-03-31 16:49:13,559 | INFO |   CSV    → fact_election_tour2.csv  (1317 lignes)
+2026-03-31 16:49:13,657 | INFO |   DuckDB → fact_election_tour2
+2026-03-31 16:49:13,657 | INFO |   CSV    → fact_securite.csv  (180 lignes)
+2026-03-31 16:49:13,697 | INFO |   DuckDB → fact_securite
+2026-03-31 16:49:13,700 | INFO |   CSV    → fact_emploi_pop_active.csv  (275 lignes)
+2026-03-31 16:49:13,730 | INFO |   DuckDB → fact_emploi_pop_active
+2026-03-31 16:49:13,730 | INFO |   CSV    → fact_revenus.csv  (23 lignes)
+2026-03-31 16:49:13,775 | INFO |   DuckDB → fact_revenus
+2026-03-31 16:49:13,781 | INFO |   CSV    → fact_diplomes.csv  (752 lignes)
+2026-03-31 16:49:13,825 | INFO |   DuckDB → fact_diplomes
+2026-03-31 16:49:13,845 | INFO |   CSV    → fact_logement.csv  (752 lignes)
+2026-03-31 16:49:13,895 | INFO |   DuckDB → fact_logement
+2026-03-31 16:49:13,897 | INFO |   CSV    → dim_iris_lyon.csv  (512 lignes)
+2026-03-31 16:49:13,941 | INFO |   DuckDB → dim_iris_lyon
+2026-03-31 16:49:13,942 | INFO |   CSV    → dim_commune.csv  (280 lignes)
+2026-03-31 16:49:13,976 | INFO |   DuckDB → dim_commune
+2026-03-31 16:49:13,978 | INFO |   CSV    → dim_departement.csv  (1 lignes)
+2026-03-31 16:49:14,015 | INFO |   DuckDB → dim_departement
+2026-03-31 16:49:14,016 | INFO |   CSV    → dim_temps.csv  (3 lignes)
+2026-03-31 16:49:14,042 | INFO |   DuckDB → dim_temps
+2026-03-31 16:49:14,055 | INFO | 
+  Rapport qualité → quality_report.csv
+2026-03-31 16:49:14,055 | INFO | 
+── VUES ANALYTIQUES ─────────────────────────────
+2026-03-31 16:49:14,098 | INFO |   Vues créées : vw_elections_communes, vw_indicateurs_territoires
+2026-03-31 16:49:14,098 | INFO | 
+✔ ETL terminé avec succès !
+2026-03-31 16:49:14,098 | INFO |    CSV     → D:\MSPR_CODE\MSPR_BLOC3_MASTER1\data_clean\
+2026-03-31 16:49:14,099 | INFO |    DuckDB  → D:\MSPR_CODE\MSPR_BLOC3_MASTER1\warehouse.duckdb
+2026-03-31 16:49:14,099 | INFO |    Log     → etl.log
