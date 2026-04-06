@@ -556,3 +556,327 @@ FileNotFoundError: Fichier introuvable : D:\code mspr\MSPR_BLOC3_MASTER1\DATA\Pr
 2026-03-31 16:49:14,098 | INFO |    CSV     → D:\MSPR_CODE\MSPR_BLOC3_MASTER1\data_clean\
 2026-03-31 16:49:14,099 | INFO |    DuckDB  → D:\MSPR_CODE\MSPR_BLOC3_MASTER1\warehouse.duckdb
 2026-03-31 16:49:14,099 | INFO |    Log     → etl.log
+2026-04-04 19:39:24,597 | INFO | === Démarrage ETL ===
+2026-04-04 19:39:24,597 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-04 19:39:24,597 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 775, in run
+    raw = self.extract()
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 216, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:\MSPR_CODE\MSPR_BLOC3_MASTER1\DATA\Premier_tour_rhone_sep.csv
+2026-04-04 19:40:58,046 | INFO | === Démarrage ETL ===
+2026-04-04 19:40:58,047 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-04 19:40:58,047 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 775, in run
+    raw = self.extract()
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 216, in extract
+    "t1": self._read(self.files["t1"], encoding="utf-8"),
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 90, in _read
+    raise FileNotFoundError(f"Fichier introuvable : {path}")
+FileNotFoundError: Fichier introuvable : D:\MSPR_CODE\MSPR_BLOC3_MASTER1\DATA\Premier_tour_rhone_sep.csv
+2026-04-04 19:41:59,707 | INFO | === Démarrage ETL ===
+2026-04-04 19:41:59,707 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-04 19:42:00,258 | INFO |   t1           →   1317 lignes brutes
+2026-04-04 19:42:00,258 | INFO |   t2           →   1317 lignes brutes
+2026-04-04 19:42:00,258 | INFO |   securite     →  18180 lignes brutes
+2026-04-04 19:42:00,258 | INFO |   emploi       →  34903 lignes brutes
+2026-04-04 19:42:00,259 | INFO |   revenus      →    777 lignes brutes
+2026-04-04 19:42:00,259 | INFO |   diplomes     →  49276 lignes brutes
+2026-04-04 19:42:00,259 | INFO |   logement     →  49276 lignes brutes
+2026-04-04 19:42:00,259 | INFO |   iris         →    512 lignes brutes
+2026-04-04 19:42:00,259 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-04-04 19:42:00,314 | INFO |   tour1        →   1317 lignes propres
+2026-04-04 19:42:00,363 | INFO |   tour2        →   1317 lignes propres
+2026-04-04 19:42:00,381 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-04-04 19:42:00,395 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-04-04 19:42:00,401 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-04-04 19:42:00,444 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-04-04 19:42:00,498 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-04-04 19:42:00,502 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-04-04 19:42:00,511 | INFO |   dim_commune →    280 lignes
+2026-04-04 19:42:00,517 | INFO |   dim_departement →      1 lignes
+2026-04-04 19:42:00,517 | INFO |   dim_temps   →      3 lignes
+2026-04-04 19:42:00,518 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-04-04 19:42:00,537 | INFO |   CSV    → fact_election_tour1.csv  (1317 lignes)
+2026-04-04 19:42:00,634 | INFO |   DuckDB → fact_election_tour1
+2026-04-04 19:42:00,645 | INFO |   CSV    → fact_election_tour2.csv  (1317 lignes)
+2026-04-04 19:42:00,710 | INFO |   DuckDB → fact_election_tour2
+2026-04-04 19:42:00,713 | INFO |   CSV    → fact_securite.csv  (180 lignes)
+2026-04-04 19:42:00,742 | INFO |   DuckDB → fact_securite
+2026-04-04 19:42:00,745 | INFO |   CSV    → fact_emploi_pop_active.csv  (275 lignes)
+2026-04-04 19:42:00,772 | INFO |   DuckDB → fact_emploi_pop_active
+2026-04-04 19:42:00,773 | INFO |   CSV    → fact_revenus.csv  (23 lignes)
+2026-04-04 19:42:00,800 | INFO |   DuckDB → fact_revenus
+2026-04-04 19:42:00,809 | INFO |   CSV    → fact_diplomes.csv  (752 lignes)
+2026-04-04 19:42:00,845 | INFO |   DuckDB → fact_diplomes
+2026-04-04 19:42:00,857 | INFO |   CSV    → fact_logement.csv  (752 lignes)
+2026-04-04 19:42:00,897 | INFO |   DuckDB → fact_logement
+2026-04-04 19:42:00,899 | INFO |   CSV    → dim_iris_lyon.csv  (512 lignes)
+2026-04-04 19:42:00,938 | INFO |   DuckDB → dim_iris_lyon
+2026-04-04 19:42:00,940 | INFO |   CSV    → dim_commune.csv  (280 lignes)
+2026-04-04 19:42:00,979 | INFO |   DuckDB → dim_commune
+2026-04-04 19:42:00,980 | INFO |   CSV    → dim_departement.csv  (1 lignes)
+2026-04-04 19:42:01,011 | INFO |   DuckDB → dim_departement
+2026-04-04 19:42:01,013 | INFO |   CSV    → dim_temps.csv  (3 lignes)
+2026-04-04 19:42:01,043 | INFO |   DuckDB → dim_temps
+2026-04-04 19:42:01,046 | INFO | 
+  Rapport qualité → quality_report.csv
+2026-04-04 19:42:01,046 | INFO | 
+── VUES ANALYTIQUES ─────────────────────────────
+2026-04-04 19:42:01,075 | INFO |   Vues créées : vw_elections_communes, vw_indicateurs_territoires
+2026-04-04 19:42:01,076 | INFO | 
+✔ ETL terminé avec succès !
+2026-04-04 19:42:01,076 | INFO |    CSV     → D:\code mspr\MSPR_BLOC3_MASTER1\data_clean\
+2026-04-04 19:42:01,076 | INFO |    DuckDB  → D:\code mspr\MSPR_BLOC3_MASTER1\warehouse.duckdb
+2026-04-04 19:42:01,076 | INFO |    Log     → etl.log
+2026-04-06 01:45:47,261 | INFO | === Démarrage ETL ===
+2026-04-06 01:45:47,262 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-06 01:45:48,041 | INFO |   candidats    → lecture par chunks (fichier volumineux)...
+2026-04-06 01:45:48,041 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 1722, in run
+    raw = self.extract()
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 1116, in extract
+    self.files["candidats"],
+    ~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'candidats'
+2026-04-06 01:46:26,700 | INFO | === Démarrage ETL ===
+2026-04-06 01:46:26,700 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-06 01:46:27,365 | INFO |   candidats    → lecture par chunks (fichier volumineux)...
+2026-04-06 01:46:37,224 | INFO |     ... 5,000,000 lignes lues
+2026-04-06 01:46:46,886 | INFO |     ... 10,000,000 lignes lues
+2026-04-06 01:46:55,400 | INFO |     ... 15,000,000 lignes lues
+2026-04-06 01:47:03,186 | INFO |     ... 20,000,000 lignes lues
+2026-04-06 01:47:11,424 | INFO |     ... 25,000,000 lignes lues
+2026-04-06 01:47:15,719 | INFO |   t1           →   1317 lignes brutes
+2026-04-06 01:47:15,720 | INFO |   t2           →   1317 lignes brutes
+2026-04-06 01:47:15,720 | INFO |   securite     →  18180 lignes brutes
+2026-04-06 01:47:15,720 | INFO |   emploi       →  34903 lignes brutes
+2026-04-06 01:47:15,720 | INFO |   revenus      →    777 lignes brutes
+2026-04-06 01:47:15,720 | INFO |   diplomes     →  49276 lignes brutes
+2026-04-06 01:47:15,721 | INFO |   logement     →  49276 lignes brutes
+2026-04-06 01:47:15,721 | INFO |   iris         →    512 lignes brutes
+2026-04-06 01:47:15,721 | INFO |   candidats    → 506695 lignes brutes
+2026-04-06 01:47:15,721 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-04-06 01:47:15,781 | INFO |   tour1        →   1317 lignes propres
+2026-04-06 01:47:15,839 | INFO |   tour2        →   1317 lignes propres
+2026-04-06 01:47:15,855 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-04-06 01:47:15,870 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-04-06 01:47:15,876 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-04-06 01:47:15,924 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-04-06 01:47:15,981 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-04-06 01:47:15,986 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-04-06 01:47:16,119 | INFO |   candidats    →  15804 lignes après filtre 2022_pres_t1
+2026-04-06 01:47:16,169 | INFO |   candidats    →    267 communes propres (fact_candidats_blocs)
+2026-04-06 01:47:16,169 | INFO |   Distribution bloc_gagnant :
+2026-04-06 01:47:16,170 | INFO |     Extreme_Droite       : 138 communes
+2026-04-06 01:47:16,170 | INFO |     Centre               : 100 communes
+2026-04-06 01:47:16,170 | INFO |     Gauche               : 29 communes
+2026-04-06 01:47:16,178 | INFO |   dim_commune →    280 lignes
+2026-04-06 01:47:16,184 | INFO |   dim_departement →      1 lignes
+2026-04-06 01:47:16,184 | INFO |   dim_temps   →      3 lignes
+2026-04-06 01:47:16,185 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-04-06 01:47:16,198 | INFO |   CSV    → fact_election_tour1.csv  (1317 lignes)
+2026-04-06 01:47:16,317 | INFO |   DuckDB → fact_election_tour1
+2026-04-06 01:47:16,329 | INFO |   CSV    → fact_election_tour2.csv  (1317 lignes)
+2026-04-06 01:47:16,390 | INFO |   DuckDB → fact_election_tour2
+2026-04-06 01:47:16,392 | INFO |   CSV    → fact_securite.csv  (180 lignes)
+2026-04-06 01:47:16,431 | INFO |   DuckDB → fact_securite
+2026-04-06 01:47:16,434 | INFO |   CSV    → fact_emploi_pop_active.csv  (275 lignes)
+2026-04-06 01:47:16,468 | INFO |   DuckDB → fact_emploi_pop_active
+2026-04-06 01:47:16,470 | INFO |   CSV    → fact_revenus.csv  (23 lignes)
+2026-04-06 01:47:16,503 | INFO |   DuckDB → fact_revenus
+2026-04-06 01:47:16,514 | INFO |   CSV    → fact_diplomes.csv  (752 lignes)
+2026-04-06 01:47:16,555 | INFO |   DuckDB → fact_diplomes
+2026-04-06 01:47:16,567 | INFO |   CSV    → fact_logement.csv  (752 lignes)
+2026-04-06 01:47:16,615 | INFO |   DuckDB → fact_logement
+2026-04-06 01:47:16,618 | INFO |   CSV    → fact_candidats_blocs.csv  (267 lignes)
+2026-04-06 01:47:16,654 | INFO |   DuckDB → fact_candidats_blocs
+2026-04-06 01:47:16,657 | INFO |   CSV    → dim_iris_lyon.csv  (512 lignes)
+2026-04-06 01:47:16,700 | INFO |   DuckDB → dim_iris_lyon
+2026-04-06 01:47:16,702 | INFO |   CSV    → dim_commune.csv  (280 lignes)
+2026-04-06 01:47:16,738 | INFO |   DuckDB → dim_commune
+2026-04-06 01:47:16,739 | INFO |   CSV    → dim_departement.csv  (1 lignes)
+2026-04-06 01:47:16,773 | INFO |   DuckDB → dim_departement
+2026-04-06 01:47:16,774 | INFO |   CSV    → dim_temps.csv  (3 lignes)
+2026-04-06 01:47:16,809 | INFO |   DuckDB → dim_temps
+2026-04-06 01:47:16,811 | INFO | 
+  Rapport qualité → quality_report.csv
+2026-04-06 01:47:16,811 | INFO | 
+── VUES ANALYTIQUES ─────────────────────────────
+2026-04-06 01:47:16,845 | INFO |   Vues créées : vw_elections_communes, vw_indicateurs_territoires, vw_elections_blocs
+2026-04-06 01:47:16,846 | INFO | 
+✔ ETL terminé avec succès !
+2026-04-06 01:47:16,846 | INFO |    CSV     → D:\code mspr\MSPR_BLOC3_MASTER1\data_clean\
+2026-04-06 01:47:16,846 | INFO |    DuckDB  → D:\code mspr\MSPR_BLOC3_MASTER1\warehouse.duckdb
+2026-04-06 01:47:16,846 | INFO |    Log     → etl.log
+2026-04-06 02:21:46,488 | INFO | === Démarrage ETL ===
+2026-04-06 02:21:46,488 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-06 02:21:47,171 | INFO |   candidats    → lecture par chunks (fichier volumineux)...
+2026-04-06 02:21:56,892 | INFO |     ... 5,000,000 lignes lues
+2026-04-06 02:22:06,638 | INFO |     ... 10,000,000 lignes lues
+2026-04-06 02:22:15,116 | INFO |     ... 15,000,000 lignes lues
+2026-04-06 02:22:22,849 | INFO |     ... 20,000,000 lignes lues
+2026-04-06 02:22:30,957 | INFO |     ... 25,000,000 lignes lues
+2026-04-06 02:22:35,197 | INFO |   t1           →   1317 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   t2           →   1317 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   securite     →  18180 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   emploi       →  34903 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   revenus      →    777 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   diplomes     →  49276 lignes brutes
+2026-04-06 02:22:35,197 | INFO |   logement     →  49276 lignes brutes
+2026-04-06 02:22:35,198 | INFO |   iris         →    512 lignes brutes
+2026-04-06 02:22:35,198 | INFO |   candidats    → 506695 lignes brutes
+2026-04-06 02:22:35,198 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-04-06 02:22:35,258 | INFO |   tour1        →   1317 lignes propres
+2026-04-06 02:22:35,315 | INFO |   tour2        →   1317 lignes propres
+2026-04-06 02:22:35,332 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-04-06 02:22:35,348 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-04-06 02:22:35,354 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-04-06 02:22:35,400 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-04-06 02:22:35,455 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-04-06 02:22:35,460 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-04-06 02:22:35,590 | INFO |   candidats    →  15804 lignes après filtre 2022_pres_t1
+2026-04-06 02:22:35,645 | INFO |   candidats    →    267 communes propres (fact_candidats_blocs)
+2026-04-06 02:22:35,645 | INFO |   Distribution bloc_gagnant :
+2026-04-06 02:22:35,646 | INFO |     Extreme_Droite       : 138 communes
+2026-04-06 02:22:35,646 | INFO |     Centre               : 100 communes
+2026-04-06 02:22:35,646 | INFO |     Gauche               : 29 communes
+2026-04-06 02:22:35,655 | INFO |   dim_commune →    280 lignes
+2026-04-06 02:22:35,660 | INFO |   dim_departement →      1 lignes
+2026-04-06 02:22:35,661 | INFO |   dim_temps   →      3 lignes
+2026-04-06 02:22:35,661 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-04-06 02:22:35,663 | ERROR | Erreur pendant l'exécution ETL
+Traceback (most recent call last):
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 1771, in run
+    self.load(warehouse_tables)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 1624, in load
+    self._save_csv(df, csv_name)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\etl\etl_pipeline.py", line 1611, in _save_csv
+    df.to_csv(path, sep=";", index=False, encoding="utf-8-sig")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\venv\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "D:\code mspr\MSPR_BLOC3_MASTER1\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'D:\\code mspr\\MSPR_BLOC3_MASTER1\\data_clean\\fact_election_tour1.csv'
+2026-04-06 02:23:00,933 | INFO | === Démarrage ETL ===
+2026-04-06 02:23:00,933 | INFO | 
+── EXTRACT ──────────────────────────────────────
+2026-04-06 02:23:01,467 | INFO |   candidats    → lecture par chunks (fichier volumineux)...
+2026-04-06 02:23:11,184 | INFO |     ... 5,000,000 lignes lues
+2026-04-06 02:23:20,922 | INFO |     ... 10,000,000 lignes lues
+2026-04-06 02:23:29,367 | INFO |     ... 15,000,000 lignes lues
+2026-04-06 02:23:37,150 | INFO |     ... 20,000,000 lignes lues
+2026-04-06 02:23:45,232 | INFO |     ... 25,000,000 lignes lues
+2026-04-06 02:23:49,605 | INFO |   t1           →   1317 lignes brutes
+2026-04-06 02:23:49,606 | INFO |   t2           →   1317 lignes brutes
+2026-04-06 02:23:49,606 | INFO |   securite     →  18180 lignes brutes
+2026-04-06 02:23:49,606 | INFO |   emploi       →  34903 lignes brutes
+2026-04-06 02:23:49,606 | INFO |   revenus      →    777 lignes brutes
+2026-04-06 02:23:49,606 | INFO |   diplomes     →  49276 lignes brutes
+2026-04-06 02:23:49,607 | INFO |   logement     →  49276 lignes brutes
+2026-04-06 02:23:49,607 | INFO |   iris         →    512 lignes brutes
+2026-04-06 02:23:49,607 | INFO |   candidats    → 506695 lignes brutes
+2026-04-06 02:23:49,607 | INFO | 
+── TRANSFORM ────────────────────────────────────
+2026-04-06 02:23:49,667 | INFO |   tour1        →   1317 lignes propres
+2026-04-06 02:23:49,724 | INFO |   tour2        →   1317 lignes propres
+2026-04-06 02:23:49,741 | INFO |   securite    →    180 lignes propres (Rhône)
+2026-04-06 02:23:49,756 | INFO |   emploi      →    275 lignes propres (Rhône)
+2026-04-06 02:23:49,762 | INFO |   revenus     →     23 lignes propres (Rhône)
+2026-04-06 02:23:49,807 | INFO |   diplomes    →    752 lignes propres (Rhône)
+2026-04-06 02:23:49,862 | INFO |   logement    →    752 lignes propres (Rhône)
+2026-04-06 02:23:49,866 | INFO |   iris        →    512 lignes propres (métropole Lyon)
+2026-04-06 02:23:49,996 | INFO |   candidats    →  15804 lignes après filtre 2022_pres_t1
+2026-04-06 02:23:50,050 | INFO |   candidats    →    267 communes propres (fact_candidats_blocs)
+2026-04-06 02:23:50,050 | INFO |   Distribution bloc_gagnant :
+2026-04-06 02:23:50,051 | INFO |     Extreme_Droite       : 138 communes
+2026-04-06 02:23:50,051 | INFO |     Centre               : 100 communes
+2026-04-06 02:23:50,051 | INFO |     Gauche               : 29 communes
+2026-04-06 02:23:50,059 | INFO |   dim_commune →    280 lignes
+2026-04-06 02:23:50,064 | INFO |   dim_departement →      1 lignes
+2026-04-06 02:23:50,065 | INFO |   dim_temps   →      3 lignes
+2026-04-06 02:23:50,065 | INFO | 
+── LOAD ─────────────────────────────────────────
+2026-04-06 02:23:50,079 | INFO |   CSV    → fact_election_tour1.csv  (1317 lignes)
+2026-04-06 02:23:50,143 | INFO |   DuckDB → fact_election_tour1
+2026-04-06 02:23:50,154 | INFO |   CSV    → fact_election_tour2.csv  (1317 lignes)
+2026-04-06 02:23:50,204 | INFO |   DuckDB → fact_election_tour2
+2026-04-06 02:23:50,206 | INFO |   CSV    → fact_securite.csv  (180 lignes)
+2026-04-06 02:23:50,234 | INFO |   DuckDB → fact_securite
+2026-04-06 02:23:50,237 | INFO |   CSV    → fact_emploi_pop_active.csv  (275 lignes)
+2026-04-06 02:23:50,263 | INFO |   DuckDB → fact_emploi_pop_active
+2026-04-06 02:23:50,264 | INFO |   CSV    → fact_revenus.csv  (23 lignes)
+2026-04-06 02:23:50,292 | INFO |   DuckDB → fact_revenus
+2026-04-06 02:23:50,302 | INFO |   CSV    → fact_diplomes.csv  (752 lignes)
+2026-04-06 02:23:50,338 | INFO |   DuckDB → fact_diplomes
+2026-04-06 02:23:50,351 | INFO |   CSV    → fact_logement.csv  (752 lignes)
+2026-04-06 02:23:50,395 | INFO |   DuckDB → fact_logement
+2026-04-06 02:23:50,398 | INFO |   CSV    → fact_candidats_blocs.csv  (267 lignes)
+2026-04-06 02:23:50,435 | INFO |   DuckDB → fact_candidats_blocs
+2026-04-06 02:23:50,438 | INFO |   CSV    → dim_iris_lyon.csv  (512 lignes)
+2026-04-06 02:23:50,480 | INFO |   DuckDB → dim_iris_lyon
+2026-04-06 02:23:50,481 | INFO |   CSV    → dim_commune.csv  (280 lignes)
+2026-04-06 02:23:50,516 | INFO |   DuckDB → dim_commune
+2026-04-06 02:23:50,518 | INFO |   CSV    → dim_departement.csv  (1 lignes)
+2026-04-06 02:23:50,552 | INFO |   DuckDB → dim_departement
+2026-04-06 02:23:50,553 | INFO |   CSV    → dim_temps.csv  (3 lignes)
+2026-04-06 02:23:50,587 | INFO |   DuckDB → dim_temps
+2026-04-06 02:23:50,589 | INFO | 
+  Rapport qualité → quality_report.csv
+2026-04-06 02:23:50,590 | INFO | 
+── VUES ANALYTIQUES ─────────────────────────────
+2026-04-06 02:23:50,626 | INFO |   Vues créées : vw_elections_communes, vw_indicateurs_territoires, vw_elections_blocs
+2026-04-06 02:23:50,626 | INFO | 
+✔ ETL terminé avec succès !
+2026-04-06 02:23:50,626 | INFO |    CSV     → D:\code mspr\MSPR_BLOC3_MASTER1\data_clean\
+2026-04-06 02:23:50,626 | INFO |    DuckDB  → D:\code mspr\MSPR_BLOC3_MASTER1\warehouse.duckdb
+2026-04-06 02:23:50,626 | INFO |    Log     → etl.log

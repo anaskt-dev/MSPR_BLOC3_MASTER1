@@ -1,9 +1,10 @@
 ﻿table_name;rows_before;rows_after;rows_removed;columns_count;null_cells;duplicates_removed;load_timestamp;notes
-fact_election_tour1;1317;1317;0;24;0;0;2026-03-31 16:49:13;Nettoyage élection + contrôle cohérence votants/exprimes
-fact_election_tour2;1317;1317;0;24;0;0;2026-03-31 16:49:13;Nettoyage élection + contrôle cohérence votants/exprimes
-fact_securite;18180;180;18000;11;0;0;2026-03-31 16:49:13;Filtre Rhône + conversion colonnes numériques
-fact_emploi_pop_active;34903;275;34628;7;0;0;2026-03-31 16:49:13;Filtre Rhône niveau commune
-fact_revenus;777;23;754;11;0;0;2026-03-31 16:49:13;Filtre Rhône niveau commune/IRIS selon source
-fact_diplomes;49276;752;48524;16;0;0;2026-03-31 16:49:13;Filtre Rhône niveau IRIS
-fact_logement;49276;752;48524;22;0;0;2026-03-31 16:49:13;Filtre Rhône niveau IRIS
-dim_iris_lyon;512;512;0;7;0;0;2026-03-31 16:49:13;Nettoyage référentiel IRIS Lyon
+fact_election_tour1;1317;1317;0;24;0;0;2026-04-06 02:23:49;Nettoyage élection + contrôle cohérence votants/exprimes
+fact_election_tour2;1317;1317;0;24;0;0;2026-04-06 02:23:49;Nettoyage élection + contrôle cohérence votants/exprimes
+fact_securite;18180;180;18000;11;0;0;2026-04-06 02:23:49;Filtre Rhône + conversion colonnes numériques
+fact_emploi_pop_active;34903;275;34628;7;0;0;2026-04-06 02:23:49;Filtre Rhône niveau commune
+fact_revenus;777;23;754;11;0;0;2026-04-06 02:23:49;Filtre Rhône niveau commune/IRIS selon source
+fact_diplomes;49276;752;48524;16;0;0;2026-04-06 02:23:49;Filtre Rhône niveau IRIS
+fact_logement;49276;752;48524;22;0;0;2026-04-06 02:23:49;Filtre Rhône niveau IRIS
+dim_iris_lyon;512;512;0;7;0;0;2026-04-06 02:23:49;Nettoyage référentiel IRIS Lyon
+fact_candidats_blocs;506695;267;506428;12;0;0;2026-04-06 02:23:50;Filtre 2022_pres_t1 + mapping blocs + agrégation commune + variable cible bloc_gagnant
